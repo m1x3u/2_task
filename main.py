@@ -29,7 +29,10 @@ class Example(QMainWindow):
         self.update()
 
     def draw_flag(self, qp):
-        qp.setBrush(QColor(255, 255, 0))
+        r = random.randint(0, 255)
+        g = random.randint(0, 255)
+        b = random.randint(0, 255)
+        qp.setBrush(QColor(r, g, b))
         d = random.randint(50, 300)
         x = random.randint(0, self.width())
         y = random.randint(0, self.width())
