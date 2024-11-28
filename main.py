@@ -3,7 +3,7 @@ import sys
 
 from PyQt6 import uic
 from PyQt6.QtGui import QPainter, QColor
-from PyQt6.QtWidgets import QWidget, QApplication, QMainWindow
+from PyQt6.QtWidgets import QApplication, QMainWindow
 
 
 class Example(QMainWindow):
